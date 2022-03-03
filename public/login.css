@@ -1,0 +1,139 @@
+body{
+   min-height: 100vh;
+   font-family: sans-serif;
+   display: grid;
+   place-items: center;
+   background-color: #000;
+}
+
+p{
+	font-size: 1.3125rem;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 5rem;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+    max-width: 20rem;
+	background-color: #FFf;
+	padding: 4rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.15);
+	
+}
+label{
+	width: 100%;
+	color: #777;
+	align-self: flex-start;
+	transition: 0.15s linear;
+	background: none;
+}
+input:focus{
+	outline: none;
+	border-color: black;
+}
+button{
+	background: linear-gradient(90deg,#03a9f4,#f441a5,#03a9f4);
+	border-radius: 24px;
+	border-style: none;
+	box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+	box-sizing: border-box;
+	color: #3c4043;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: inherit;
+	letter-spacing: .25px;
+	line-height: normal;
+    padding: 14px 90px;
+	transition: background box-shadow 280ms ease;
+}
+   
+button:hover {
+	animation: ani 8s linear infinite;
+	border: none;
+   }
+   button:hover::before {
+ filter: blur(20px);
+}
+
+button:hover::before {
+	filter: blur(20px);
+}
+   
+button:active {
+	background: linear-gradient(32deg,#03a9f4,#f441a5,#03a9f4);
+}
+
+p{
+	font-size: 1.3125rem;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 5rem;
+	background: none;
+}
+a{
+	text-decoration: none;
+	color:rgb(34, 27, 27);
+	font-size: 0.875rem;
+	font-weight: 600;
+	background: none;
+	transition: 0.3s;
+}
+
+a:hover,
+a:focus{
+	outline: none;
+	color: #000;
+}
+a:first-of-type{
+	margin-top: 1rem;
+}
+a+a{
+	margin-top: 1.125rem;
+}
+input{
+	font-size: 1.1875rem;
+	color: #404040;
+	padding: 1rem 0 0.5rem 0;
+	width: 100%;
+	border: none;
+	border-color: #a0a0a0;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	margin-bottom: 3rem;
+	transition: 0.15s linear;
+	background: none;
+}
+
+.back_btn {
+	bottom: 0;
+    left: 83px;
+    margin: auto;
+    position: absolute;
+    top: 60px;
+	cursor: pointer;
+	opacity: 0.5;
+}
+  .a {
+	text-decoration: none;
+	padding: 20px 20px;
+	font-size: 25px;
+	color: royalblue;
+
+  }
+  .a:hover {
+
+	color: royalblue;
+
+  }
+ 
+  body{
+	background-image: url(img/woman.jpeg) ;
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+  
+  }
